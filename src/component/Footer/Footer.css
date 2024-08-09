@@ -1,0 +1,13 @@
+.a_footer h5{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(41, 213, 213);
+    border-radius: 50%;
+    opacity:0.5;
+}
+.a_footer h5:hover{
+  opacity: 1;
+}

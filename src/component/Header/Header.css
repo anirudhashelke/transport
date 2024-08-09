@@ -1,0 +1,14 @@
+nav ul li:first-child{
+    color: #0a97b0;
+}
+nav ul li:hover{
+    color:#0a97b0 ;
+}
+.a_menubar{
+    width:100% !important;
+    position: absolute !important;
+    z-index: 10 !important;
+    background-color: rgba(18, 19, 19, 0.817) !important;
+    height: 100vh;
+    color: #fff;
+}

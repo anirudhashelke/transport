@@ -1,0 +1,11 @@
+.a_track{
+    background-image: url("/public/track-bg.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.a_track_box{
+    width: 100%;
+    background:linear-gradient( to right,#242A2C,#324751ad);
+    height: 100%;
+}

@@ -1,0 +1,11 @@
+.a_banner{
+    background-image: url("/public/slider-bg.jpg");
+}
+.a_banner_box{
+    background-color:#595A5B;
+    height: 100%;
+    opacity:0.8;
+}
+button{
+    transition: all .3s;
+}

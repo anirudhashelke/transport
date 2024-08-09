@@ -1,0 +1,6 @@
+.a_contact{
+    display: block;
+}
+textarea:focus{
+    outline: none;
+}
