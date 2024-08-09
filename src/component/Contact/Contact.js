@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 import { useFormik } from 'formik';
 import { signUpSchemas } from '../../Schema';
-import { GrAction } from 'react-icons/gr';
+
 
 
 const initialValues={
@@ -52,7 +52,7 @@ const Contact = () => {
   
   return (
     <div>
-      {/* <h1 className='text-[50px] a-600 text-center mt-4'>Contact</h1> */}
+      <h1 className='text-[40px] a-600 text-center mt-4'>Contact</h1>
       <form onSubmit={handleSubmit} className=' my-4 flex justify-center'>
         <div className=' a_contact p-5 w-50 bg-[#3276ae]'>
           <div className='my-3'>
