@@ -43,16 +43,16 @@ const Contact = () => {
       initialValues:initialValues,
       validationSchema:signUpSchemas,
       onSubmit:(values,Action)=>{
-        console.log(values);
+        // console.log(values);
         Action.resetForm();
       }
     })
     // console.log(Formik)
-    console.log(errors)
+    // console.log(errors)
   
   return (
     <div>
-      <h1 className='text-[40px] a-600 text-center mt-4'>Contact</h1>
+      <h1 className='text-[40px] a-600 text-center mt-4 contact'>Contact</h1>
       <form onSubmit={handleSubmit} className=' my-4 flex justify-center'>
         <div className=' a_contact p-5 w-50 bg-[#3276ae]'>
           <div className='my-3'>

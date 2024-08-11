@@ -19,7 +19,7 @@ const Services = () => {
     },
   ]
   return (
-    <div className='container my-[80px]'>
+    <div className='container my-[80px] service'>
         <h1 className='text-[#0c0c0c] text-[32px] a-700'>Our <span  className='text-[#0A97B0]'>Services</span></h1>
         <p className='a-400 text-[#0C0C0C] py-2'>There are many variations of passages of Lorem Ipsum available,
              but the majority have suffered alteration</p>

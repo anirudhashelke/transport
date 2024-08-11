@@ -2,7 +2,7 @@ import React from 'react'
 import './About.css'
 const About = () => {
     return (
-        <div className='container '>
+        <div className='container about '>
             <div className="row my-[150px]">
                 <div className='col-12 col-md-6'>
                     <div>

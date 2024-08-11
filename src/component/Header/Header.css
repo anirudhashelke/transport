@@ -12,3 +12,8 @@ nav ul li:hover{
     height: 100vh;
     color: #fff;
 }
+.a_bg_red{
+    background-color: #212ea0e7;
+    transition: 0.5s;
+    color: #fff;
+}

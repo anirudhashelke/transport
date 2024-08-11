@@ -12,7 +12,7 @@ const Banner = () => {
     },
   ]
   return (
-    <section className='a_banner'>
+    <section className='a_banner mt-[150px] home'>
       <div className='a_banner_box'>
         <Carousel showArrows={false} showStatus={false}  >
           {data.map((index) => {
